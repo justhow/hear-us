@@ -35,14 +35,32 @@ Both datasets were compiled according to the interests of the CIA and thus, unfo
 
 ### Toolset
 
-- Standard data science tools:
-- - pandas
-- - numpy
-- - seaborn
-- - matplotlib
 - sklearn 
 - keras
 - nltk
 - Word2Vec
 - transformers
 - SMOTE
+- Standard data science tools:
+- - pandas
+- - numpy
+- - seaborn
+- - matplotlib
+
+### Presentation
+
+[Google Slides Presentation](https://docs.google.com/presentation/d/1t5ukQI4g47wQG_3s3AqrolRU9ibvjFbBRB-ck_7JMrM/edit#slide=id.gbe6f2c0281_0_90)
+
+[Tableau Public Presentation](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/AnnualGlobalProtests)
+
+### Conclusions and Recommendations
+
+#### Natural Resources & Language of a country are strong indicators of success
+- This highlights the fact that many of the bitterest and most determined protests are in impoverished, post-colonial nations still suffering from a long history of economic exploitation, and often dictatorial governments.
+#### Government responses have a strong chilling effect
+- Arrests and Crowd Dispersal both have
+- By far the best thing a government can do is if they want to suppress a protest is ignore it.
+- The above is likely more an indication of the low effectiveness of the protest than the government's actions.
+#### The factors in protest success are very distinct in different regions
+- Many outliers within regions are post-colonial countries, standing out based on a particular natural resource or language.
+- GDP growth, availability of electricity, and cell phones per capita were the most consistent factors across regions.
