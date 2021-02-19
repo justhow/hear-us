@@ -15,7 +15,9 @@ Furthermore, state-sanctioned violence is an all-too common response to popular 
 
 Using a logistic regression model, we are able to predict protest success with 94.9% accuracy.  We identify several key factors in protest outcome based on feature coefficients, K-means clustering, and digging down on several aspects of the dataset.  Results are broken down by region, protestor identity, reason for protest, and Government type, among others.  Furthermore, indicators of state violence are picked out for further examination.
 
+
 ### Table of Contents
+
 - Problem Statement
 - Imports
 - Munging
@@ -25,6 +27,7 @@ Using a logistic regression model, we are able to predict protest success with 9
 - Model Results
 - Conclusions and Recommendations
 
+
 ### Data 
 
 Primary data came from the [Mass Mobilization Project](https://massmobilization.github.io/).  The project is sponsored by the Political Instability Task Force (PITF), which is in turn funded by the Central Intelligence Agency.  The views expressed by the PITF and Principle Investigators are their own, and not endorsed by the CIA or US Government.
@@ -32,6 +35,7 @@ Primary data came from the [Mass Mobilization Project](https://massmobilization.
 To supplement this information, the [CIA World Factbook](https://www.cia.gov/the-world-factbook/) was brought in as well.  
 
 Both datasets were compiled according to the interests of the CIA and thus, unfortunately, do not include any US data.  They are, however, both extremely robust datasets, offering a plethora of meaningful features for investigation.
+
 
 ### Toolset
 
@@ -41,18 +45,27 @@ Both datasets were compiled according to the interests of the CIA and thus, unfo
 - Word2Vec
 - transformers
 - SMOTE
-<<<<<<< HEAD
 - Standard data science tools:
 - - pandas
 - - numpy
 - - seaborn
 - - matplotlib
 
+
 ### Presentation
 
 [Google Slides Presentation](https://docs.google.com/presentation/d/1t5ukQI4g47wQG_3s3AqrolRU9ibvjFbBRB-ck_7JMrM/edit#slide=id.gbe6f2c0281_0_90)
 
 [Tableau Public Presentation](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/AnnualGlobalProtests)
+
+
+### Visualizations
+
+- [Annual Global Protests](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/AnnualGlobalProtests?publish=yes)
+- [Accommodation of Protesters by Country](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/AccomodationofProtestorsbyCountry)
+- [Global Protests per Year & Outcomes](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/GlobalProtestsperYearOutcomes?publish=yes)
+- [Images](./noah/images)
+
 
 ### Conclusions and Recommendations
 
@@ -65,13 +78,3 @@ Both datasets were compiled according to the interests of the CIA and thus, unfo
 #### The factors in protest success are very distinct in different regions
 - Many outliers within regions are post-colonial countries, standing out based on a particular natural resource or language.
 - GDP growth, availability of electricity, and cell phones per capita were the most consistent factors across regions.
-=======
-- Tableau
-
-### Visualizations
-
-- [Annual Global Protests](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/AnnualGlobalProtests?publish=yes)
-- [Accommodation of Protesters by Country](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/AccomodationofProtestorsbyCountry)
-- [Global Protests per Year & Outcomes](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/GlobalProtestsperYearOutcomes?publish=yes)
-- [Images](./noah/images)
->>>>>>> f09411141831f5e7291a7a468ec27352d48324af
