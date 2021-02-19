@@ -46,3 +46,11 @@ Both datasets were compiled according to the interests of the CIA and thus, unfo
 - Word2Vec
 - transformers
 - SMOTE
+- Tableau
+
+### Visualizations
+
+- [Annual Global Protests](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/AnnualGlobalProtests?publish=yes)
+- [Accommodation of Protesters by Country](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/AccomodationofProtestorsbyCountry)
+- [Global Protests per Year & Outcomes](https://public.tableau.com/profile/david.holcomb#!/vizhome/Project_5_protests/GlobalProtestsperYearOutcomes?publish=yes)
+- [Images](./noah/images)
